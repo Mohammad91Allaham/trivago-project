@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Roboto-Lightimport;
+    src: url(Roboto-Light.ttf)
+}
+
+@font-face {
+    font-family: Roboto-Regularimport;
+    src: url(Roboto-Regular.ttf)
+}
+
+.container {
+    
+    width:1020px;
+    margin: auto;
+}
+
+
+
+.content {
+  
+    display: flex;
+    position: relative;
+    bottom: 4px
+    
+}
+
+.lift-side {
+   
+    display: flex;
+    flex-direction: column;
+    width: 495px;
+    
+    
+}
+
+.right-side {
+    
+    font-family: Roboto-Lightimport;
+    width:489px;
+    position: relative;
+    top: 105px;
+    left: 20px;
+
+}
+
+.pic {
+    
+    width: 490px;
+}
+
+.quote {
+    
+    margin: 1em;
+    font-family: Roboto-Regularimport;
+    font-size: 30px;
+    width: 507px;
+    color:rgb(34, 103, 171);
+    text-align: right;
+    position: relative;
+    bottom:0px;
+    right: 45px;
+    
+}
+
+img {
+    width: 100%
+}
+.paragragh{
+    font-size:16px;
+    color: rgb(109, 108, 108);
+    font-family: Roboto-Lightimport;
+}
+.italic-bold{
+    font-weight: bold;
+    font-style: italic;
+}
+h1{
+    color:rgb(34, 103, 171);
+}
+.quotation{
+    font-size: 55px;
+    color: rgb(179, 179, 179);
+    position: absolute;
+}
+
+
+
+.quote p{
+    margin: 0px;
+}
